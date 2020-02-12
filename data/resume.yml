@@ -1,117 +1,161 @@
 headers:
-    profile: Profile
-    skills: Skills
-    languages: Languages
-    techs: Technical
-    jobs: Experiences
-    education: Education
-    links: Links
-    download: Download PDF
-    age: y/o
-    projects: Projects
-    interests: Interests
+  profile: Profile
+  skills: Skills
+  languages: Languages
+  techs: Technical
+  jobs: Experiences
+  education: Education
+  links: Links
+  download: Download PDF
+  age: y/o
+  projects: Projects
+  interests: Interests
 
 info:
-    name: Full Name
-    # dob: 1980-01-01 # not mandatory
-    shortdesc: Job Title
-    email: example@example.com
-    phone: (313) - 867-5309 # not mandatory
-    homepage: http://example.com/ # not mandatory
-    github: https://github.com/middleman # Not mandatory
-    linkedin: http://linkedin/ # not mandatory
-    twitter: http://twitter.com/ # not mandatory
-    address:
-        street: 123 Fake Street
-        city: City
-        region: Region # not mandatory
-        postal_code: 12345 # not mandatory
-        country: Country # not mandatory
-    desc: |
-        Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
+  name: Nishit Shah
+  # dob: 1980-01-01 # not mandatory
+  shortdesc: Full Stack Developer / Data Scientist
+  email: nishitshah [at] mailfence [dot] com
+  phone: # not mandatory
+  homepage: https://shahnishit.space/ # not mandatory
+  github: https://github.com/jodobear # Not mandatory
+  linkedin: https://www.linkedin.com/in/wahmrshah/ # not mandatory
+  twitter: http://twitter.com/wahmrshah # not mandatory
+  address:
+      # street: 123 Fake Street
+      city: Barcelona
+      # region: Region # not mandatory
+      # postal_code: 12345 # not mandatory
+      # country: Country # not mandatory
+  desc: |
+      Intentful simple actions with a commitment to style. Majoring in Data Science with a passion for Web Development. I love Functional Programming and walking up vertical rock faces.
 
-skills:
-    - name: Web design
-      desc: Assertively exploit wireless initiatives rather than synergistic core competencies.
-    - name: Interface Design
-      desc: Credibly streamline mission-critical value with multifunctional functionalities.
-    - name: Project Direction
-      desc: Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+      I cook an amazing lamb curry, hire me and I might give you the recipe.
+
+# skills:
+#   - name: Web design
+#     desc: Assertively exploit wireless initiatives rather than synergistic core competencies.
+#   - name: Interface Design
+#     desc: Credibly streamline mission-critical value with multifunctional functionalities.
+#   - name: Project Direction
+#     desc: Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
 
 languages:
-    - name: Gibberish
-      level: Native language
-    - name: Manager Speak
-      level: Fluent
+  - name: English
+    level: Fluent
+  - name: Spanish
+    level: Intermediate
+  - name: Hindi
+    level: Fluent
+  - name: Marathi
+    level: Fluent
+  - name: Gujarati
+    level: Fluent
 
 alphabetsoup:
-    - XHTML
-    - CSS
-    - Javascript
-    - Jquery
-    - PHP
-    - CVS / Subversion
-    - OS X
-    - Windows XP/Vista
-    - Linux
+  - Python
+  - Javascript
+  - React
+  - HTML5/CSS3
+  - Git
 
-links: # this section is not mandatory
-    - name: Link1
-      url: http://example.com/
-    - name: Another link
-      url: https://example.com/
+# links: # this section is not mandatory
+#     - name: Link1
+#       url: http://example.com/
+#     - name: Another link
+#       url: https://example.com/
 
 jobs:
-    - title: Senior Interface Designer
-      company: Famous Company
-      url: http://example.com/
-      dates:
-          start: 2007-01-02
-          end: Present
-      desc: |
-          Intrinsicly enable optimal core competencies through corporate relationships.
+  - title: Business Transformation Manager
+    company: Oasis Ceramics Pvt Ltd
+    url: https://oasisceramics.com/
+    dates:
+      start: October 2014
+      end: July 2017
+    desc: |
+        Lead a complete change of layout to implement LEAN facility design. Notable achievements:
 
-          Phosfluorescently implement worldwide vortals and client-focused imperatives.
+        - Reduced wastage by > 30%,
+        - Reduced manufacturing time by > 20%,
+        - Reduced material movement from 1545m to 580m.
+        - Improved overall productivity by > 10%.
+        - Designing the ERP software.
 
-          Conveniently initiate virtual paradigms and top-line convergence.
+  - title: Business Transformation Manager
+    company: Oasis Ceramics Pvt Ltd
+    url: https://oasisceramics.com/
+    dates:
+      start: August 2011
+      end: September 2014
+    desc: |
+        Lab, QA & QC  Incharge.
 
-    - title: Junior Interface Designer
-      company: Technocorp
-      dates:
-          start: 2005-01-01
-          end: 2007-01-01
-      desc: |
-          Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment.
+        Established SOPs for material testing and production process.
 
-          Compellingly morph extensive niche markets with mission-critical ideas.
-
-          Phosfluorescently deliver bricks-and-clicks strategic theme areas rather than scalable benefits.
+        Worked with international laboratories to make the best body and glaze in production in India for Bone China Tableware.
 
 education: # this section is not mandatory
-    - name: Indiana University
-      url: http://indiana.edu # not mandatory
-      city: Bloomington
-      region: Indiana
-      country: USA # not mandatory
-      dates:
-          start: 2001-01-01
-          end: 2010-01-01 # not mandatory
-      title: Dual Major, Economics and English
-      grade: 4.0 GPA # not mandatory
+  - name: Moscow Institute of Physics & Technology
+    url: http://indiana.edu # not mandatory
+    city: Moscow
+    # region: Indiana
+    country: Russia # not mandatory
+    dates:
+        start: September 2019
+        end: February 2021 # not mandatory
+    title: Diploma Applied Mathematics and Informatics
+    grade: 8.91/10 # not mandatory
+
+  - name: Harbour Space University
+    url: https://harbour.space # not mandatory
+    city: Barcelona
+    # region: Indiana
+    country: Spain # not mandatory
+    dates:
+      start: September 2017
+      end: February 2021 # not mandatory
+    title: BSc Computer Scince, Maj. Data Science
+    # grade: 8.91/10 # not mandatory
+
+  - name: DES Law College, Pune University
+    # url: https://harbour.space # not mandatory
+    city: Pune
+    # region: Indiana
+    country: India # not mandatory
+    dates:
+      start: September 2017
+      end: February 2021 # not mandatory
+    title: BSc Computer Scince, Maj. Data Science
 
 projects: # this section is not mandatory
-    - name: ResumeMan
-      desc: |
-          Resume Man is an HTML and PDF resume builder made in Ruby with Middleman.
-      url: https://github.com/reefab/ResumeMan # not mandatory
-      dates: # not mandatory
-          start: 2013-02-18
-          end: 2014-04-05 # not mandatory
-      location: # not mandatory
-          city: Florence
-          region: Tuscany
-          country: Italy # not mandatory
+  - name: ResumeMan
+    desc: |
+        Resume Man is an HTML and PDF resume builder made in Ruby with Middleman.
+    url: https://github.com/reefab/ResumeMan # not mandatory
+    # dates: # not mandatory
+    #     start: 2013-02-18
+    #     end: 2014-04-05 # not mandatory
+    # location: # not mandatory
+    #   city: Florence
+    #   region: Tuscany
+    #   country: Italy # not mandatory
+
+  - name: PDF Stamper
+    desc: |
+        A Win/Linux GUI PDF batch stamper with numbering for French Lawyers.
+    url: https://github.com/jodobear/pdf-stamper # not mandatory
+
+  - name: Blackjack
+    desc: |
+        A Javascript, jQuery, CSS & HTML based Blackjack Game.
+    url: https://github.com/jodobear/blackjack # not mandatory
+
+  - name: Students App",
+    desc: |
+        An Android app with Authentication, Database, CRUD and Async task capabilities.
+    url: https://github.com/jodobearandroid-learning/tree/students-app-async # not mandatory
 
 interests: # this section is not mandatory
-    - Underwater basket weaving
-    - Competitive Rock Paper Scissors
+    - Rock Climbing
+    - Economics
+    - Bitcoin
