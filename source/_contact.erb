@@ -7,11 +7,16 @@
         <% if data.resume.info.homepage? %>
             <li class="website"><i class="fa fa-globe"></i><a href="<%= data.resume.info.homepage %>" target="_blank"><%= data.resume.info.homepage %></a></li>
         <% end %>
-        <% %w[github linkedin twitter].each do |site| %>
-            <% if data.resume.info.include?(site) %>
-                <li class="<%= site %>"><i class="fa fa-<%= site %>"></i><a href="<%= data.resume.info[site] %>" target="_blank"><%= data.resume.info[site].gsub(/^https?\:\/\//, "") %></a></li>
-            <% end %>
+        <% if data.resume.info.github? %>
+            <li class="github"><i class="fa fa-github"></i><a href="https://github.com/<%= data.resume.info.github %>" target="_blank"><%= data.resume.info.github %></a></li>
         <% end %>
+        <% if data.resume.info.linkedin? %>
+            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/<%= data.resume.info.linkedin %>" target="_blank"><%= data.resume.info.linkedin %></a></li>
+        <% end %>
+        <% if data.resume.info.twitter? %>
+            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/<%= data.resume.info.twitter %>" target="_blank"><%= data.resume.info.twitter %></a></li>
+        <% end %>
+        
         <% if data.resume.links? %>
             <% data.resume.links.each do |link| %>
                 <li><i class="fa fa-link"></i><a href="<%= link.url %>" target="_blank"><%= link.name %></a></li>
